@@ -1,14 +1,14 @@
-n1 = int(raw_input())
-n2 = int(raw_input())
-n3 = int(raw_input())
+a1 = int(raw_input())
+a2 = int(raw_input())
+a3 = int(raw_input())
 # uncomment following lines to take three numbers from user
-#n1 = float(input("Enter first number: "))
-#n2 = float(input("Enter second number: "))
-#n3 = float(input("Enter third number: "))
-if (n1 >= n2) and (n1 >= n3):
-   largest = n1
-elif (n2 >= n1) and (n2 >= n3):
-   largest = n2
+#a1 = float(input("Enter first number: "))
+#a2 = float(input("Enter second number: "))
+#a3 = float(input("Enter third number: "))
+if (a1 >= a2) and (a1 >= a3):
+   largest = a1
+elif (a2 >= a1) and (a2 >= a3):
+   largest = a2
 else:
-   largest = n3
+   largest = a3
 print(largest)
